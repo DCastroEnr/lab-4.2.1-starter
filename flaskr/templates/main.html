@@ -9,20 +9,22 @@
 </head>
 
 <body>
+    <p class="title is-1 page-title">Cats on Ski</p>
     <!-- The below tag is using Bulma CSS. Try replacing line 14 with line 13. -->
     <!-- <div class="has-text-success-dark is-size-4  has-text-weight-medium"> -->
-    <div>
-        <a href="{{ url_for('home') }}">
+    <div class="centered-links">
+        <a class="button is-link" href="{{ url_for('home') }}">
             Home
         </a>
         &nbsp;&nbsp;
-        <a href="{{ url_for('all_pages') }}">
+        <a class="button is-link" href="{{ url_for('all_pages') }}">
             Pages
         </a>
         &nbsp;&nbsp;
-        <a href="{{ url_for('about') }}">
+        <a class="button is-link" href="{{ url_for('about') }}">
             About
         </a>
+
     </div>
 
     <!-- The below tag is using Bulma CSS. Try replacing line 30 with line 29. -->

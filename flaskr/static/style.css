@@ -12,10 +12,46 @@ h3 {
     background-color: lightblue;
     font-size: 30px;
     font-weight: bolder;
+    color: blueviolet;
 }
 
 p {
     margin-top: 10px;
     margin-left: 15px;
     background-color: lightblue;
+}
+
+.centered-links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.authors-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.author-card {
+    text-align: center;
+}
+
+.author-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.author-img {
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
 }
